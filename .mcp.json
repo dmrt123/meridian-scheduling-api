@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "super-amplify": {
+      "type": "http",
+      "url": "https://superamplify.com/api/agent/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MERIDIAN_AGENT_KEY}"
+      },
+      "alwaysLoad": true
+    }
+  }
+}
