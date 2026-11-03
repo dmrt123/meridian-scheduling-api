@@ -2,4 +2,11 @@ bin/
 obj/
 .claude/
 .cursor/
-.orchestration/
+# Private Orchestration connector state
+/.orchestration/
+/.claude/*.governance-backup-*
+/.claude/*.governance-stage-*
+/.codex/*.governance-backup-*
+/.codex/*.governance-stage-*
+/.cursor/*.governance-backup-*
+/.cursor/*.governance-stage-*
